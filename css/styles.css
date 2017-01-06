@@ -1,28 +1,65 @@
 body {
-  background-color: black;
+  background-color: silver;
   color: white;
 }
 
 h1 {
   text-align: center;
+  font-size: 50px;
   border: 10px solid darkred;
   padding: 20px;
-  margin-left: 300px;
-  margin-right: 300px;
-  background-color: silver;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: black;
 
 }
 
-.img1{
+h2 {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.imgdog{
   width: 320px;
   height: 400px;
-  border: 10px solid darkred;
+  border: 5px solid darkred;
 }
 
-.img2{
+.imgcello{
   width: 300px;
   height: 300px;
-  border: 10px solid darkred;
+  border: 5px solid darkred;
   float: left;
-  margin-right: 10px;
+  margin-right: 5px;
+}
+
+.imgblazers {
+  width: 340px;
+  height: 300px;
+  float: right;
+  border: 5px solid darkred;
+}
+
+.imgpsu {
+  width: 300px;
+  height: 300px;
+  float: right;
+  border: 5px solid darkgreen;
+  margin-right: 200px;
+}
+
+.projects {
+  font-size: 20px;
+  color: darkred;
+}
+
+.aboutme {
+  color: black;
+  font-size: 20px;
+}
+
+.interests {
+  font-size: 20px;
+  color: darkred;
 }
