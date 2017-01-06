@@ -1,23 +1,33 @@
 body {
   background-color: silver;
-  color: white;
 }
 
 h1 {
   text-align: center;
   font-size: 50px;
-  border: 10px solid darkred;
+  border: 5px solid darkred;
   padding: 20px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 250px;
+  margin-right: 250px;
   background-color: black;
-
+  color: white;
 }
 
 h2 {
   font-weight: bold;
   font-style: italic;
   text-decoration: underline;
+  font-size: 30px;
+}
+
+h3 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 22px;
 }
 
 .imgdog{
@@ -35,7 +45,7 @@ h2 {
 }
 
 .imgblazers {
-  width: 340px;
+  width: 390px;
   height: 300px;
   float: right;
   border: 5px solid darkred;
@@ -46,17 +56,27 @@ h2 {
   height: 300px;
   float: right;
   border: 5px solid darkgreen;
-  margin-right: 200px;
 }
 
-.projects {
+.projects a {
   font-size: 20px;
   color: darkred;
 }
 
-.aboutme {
-  color: black;
+.education {
+  color: darkred;
   font-size: 20px;
+}
+
+.experience {
+  color: darkred;
+  font-size: 20px;
+}
+
+.job {
+  font-size: 16px;
+  color: black;
+
 }
 
 .interests {
