@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  border: 10px solid darkred;
+  padding: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: silver;
+
+}
+
+.img1{
+  width: 320px;
+  height: 400px;
+  border: 10px solid darkred;
+}
+
+.img2{
+  width: 300px;
+  height: 300px;
+  border: 10px solid darkred;
+  float: left;
+  margin-right: 10px;
+}
